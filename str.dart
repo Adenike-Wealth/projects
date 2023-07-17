@@ -10,14 +10,33 @@ void main(){
   'disciplines');
 
   double tempCityEarly = 18.5;
-  double tempCityLate = 25.7;
+  double  tempCityLate = 25.7;
   print('The average temperature for the day is ${(tempCityEarly + tempCityLate)/2}degrees celcius}');
 
+ 
+ String Lastname = 'Peters';
+ double ageperson = 35;
+ double Salary = 10000;
+
+ print('Peters(age 35), Salary:\$500');
 
 
+ String carInfo = "Honda, Beetle, 2006 model, Automatic";
+ print(carInfo.toUpperCase()) ;
 
-  
 
+ String message = 'Hi Nikky you are a bomb, always pulling through';
+ print('$message');
+
+int numberofpeople = 20;
+String numberofpepopleText = 'numberofpeople';
+print(numberofpeople.toString());
+print('$numberofpeople');
+print('$numberofpepopleText');
+double temp = 12.385;
+String tempText = 'temp';
+print(temp.toStringAsFixed(1));
+print('$temp');
 
 
 }
